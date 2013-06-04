@@ -30,3 +30,24 @@ function golfasaurus_home() {
   return content;
 }
 
+/**
+ * Implements hook_mvc_model().
+ */
+/*function golfasaurus_mvc_model() {
+  var models = {
+    "score":{
+      "sid":{
+        "type":"int",
+        "title":"Score ID",
+        "required":true,
+        "primary_key":true
+      },
+      "course":{
+        "type":"int",
+        "title":"Course",
+        "required":true
+      }
+    }
+  };
+  return models;
+}*/
